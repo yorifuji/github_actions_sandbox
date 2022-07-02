@@ -3,7 +3,7 @@ on:
   push:
   workflow_dispatch:
 jobs:
-  job1:
+  print_context:
     runs-on: ubuntu-latest
     steps:
       - run: echo this is sample
