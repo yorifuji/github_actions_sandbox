@@ -1,0 +1,9 @@
+name: sample
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo this is sample
